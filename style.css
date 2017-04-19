@@ -1,0 +1,246 @@
+html {
+	width:100%:	
+}
+body {
+	background:url(images/bg_body.png) repeat-x top center #F4F4F4;
+	font-family:open_sansregular;
+	color:#636363;
+	font-size:12px;	
+	margin:0;
+	width:100%;
+}
+a, img {
+	border:none;
+	outline:none;	
+	text-decoration:none;
+}
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;	
+}
+header {
+	display:block;
+	background:#6CB23F;
+	width:100%;
+	border-bottom:5px solid #418216;	
+}
+header nav#gnav {
+	display:block;
+	margin:0 auto;
+	width:715px;	
+}
+header a {
+	float:left;
+	display:block;
+	padding:55px 10px;
+	text-align:center;
+	color:#1B3F04;	
+	display:block;
+	background:#77BC4A;
+	margin-right:5px;
+	font-family:open_sanslight;
+	font-size:130%;
+}
+header a#logo {
+	background:none;
+	padding:20px;	
+}
+header a:hover, header a#active {
+	color:#D6EACA;
+	background:#418216;	
+}
+section#intro {
+	display:none;
+	background:#474747 url(images/bg_intro.png) repeat-x;
+	width:100%;
+	height:150px;	
+}
+section #intro_wrap {
+	margin:0 auto;
+	width: 850px;	
+	padding:0 10px;
+}
+section#about {
+	background:#418216;
+	display:block;
+	width:100%;	
+	display:none;	
+	height:0px;
+	color:#D6EACA;
+}
+section#about #about_wrap {
+	width: 850px;
+	padding:0 10px;
+	margin:0 auto;
+	height:320px;	
+}
+section#about #about_wrap #about_right {
+	width:300px; float:right;
+}
+section#about #about_wrap #about_left {
+	width:470px;
+}
+section#about #about_wrap h1 {
+	font-size:190%;	
+	margin:20px 0 0;
+}
+section#about #about_wrap h3 {
+	margin:10px 0 3px;
+}
+section#about #about_wrap p {
+	margin:5px 0 15px 0;	
+}
+section#about #about_wrap a {
+	color:#DAFCAE;	
+}
+section#about #about_wrap ul {
+	margin:0; padding:0;
+	float:left;
+}
+section#about #about_wrap ul li {
+	margin:0 20px 0 15px;
+}
+
+
+
+section#contact {
+	background:#418216;
+	display:block;
+	width:100%;	
+	display:none;	
+	height:0px;
+	color:#D6EACA;
+}
+section#contact a {
+	color:#DAFCAE;	
+}
+section#contact #contact_wrap {
+	width: 850px;
+	padding:0 10px;
+	margin:0 auto;
+	height:280px;	
+}
+section#contact #contact_wrap #contact_right {
+	width:300px; float:right;
+}
+section#contact #contact_wrap #contact_left {
+	width:470px;
+}
+section#contact #contact_wrap h1 {
+	font-size:190%;	
+	margin:20px 0 0;
+}
+section#contact #contact_wrap h3 {
+	margin:10px 0 3px;
+}
+section#contact #contact_wrap p {
+	margin:5px 0 15px 0;	
+}
+
+
+section #intro_text {
+	float:left;
+	width:470px;
+	color:#E5E5E5;	
+	padding:10px 0;
+}
+section #intro_text h1 {
+	margin:0;
+	color:#E5E5E5;
+	font-size:180%;	
+	font-family:open_sansbold;
+	font-weight:normal;
+}
+section #intro_text p {
+	color:#E5E5E5;	
+	font-size:120%;
+	margin:3px 0 10px;
+}
+section #intro_extra {
+	float:left;	
+	width:380px;
+	background: url(images/intro_web.png) no-repeat center;
+	height:150px;
+}
+section#intro .intro_column {
+	float:left;
+	margin-right:30px;
+}
+section#intro ul {
+	float:left;
+	font-size:80%;
+	margin:0 0 0 10px;
+	padding:0 0 0 15px;
+	display:block;	
+}
+section#intro h4 {
+	margin:0;
+}	
+section#intro ul li {
+	margin:0; padding:0;	
+}
+
+section#gallery {
+	width:1050px;
+	margin:0 auto;
+	padding:10px 0px;	
+}
+article.thumb {
+	float:left;
+	margin:10px;
+	height:140px;
+	width:240px;
+	position:relative;
+	overflow:hidden;
+	display:block;
+}	
+
+article.thumb .grayout {
+	background:#494949;
+	opacity:.5;
+	width:100%;
+	height:100%;	
+}
+article.thumb .overlay {
+	position:absolute;
+	width:120px;
+	right:-140px;
+	top:0;
+	bottom:0;
+	background:#6CB23F;
+	opacity:.9;
+	z-index:99;
+	text-align:center;
+	padding:10px;	
+	color:#fff;
+}
+article.thumb .overlay .overlay_title {
+		font-size:90%;
+		display:block;
+		font-family:open_sansbold;
+}
+article.thumb .overlay .overlay_desc {
+		font-style:italic;
+		font-size:85%;
+}
+article.thumb .overlay a.livelink {
+		font-size:90%;
+		font-family:open_sansbold;
+		color:#418216;
+		background:#fff;		
+		padding:3px;
+		margin:5px auto;
+		display:block;
+		width:80px;
+}
+article.thumb .overlay a.livelink:hover {		
+		background:#418216;
+		color:#fff;
+}
+footer {
+margin:0 auto;
+text-align:center;
+font-size:80%;
+padding:0 10px 10px;	
+}
